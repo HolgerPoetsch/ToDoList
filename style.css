@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #6c6d26;
+  }
+  h1{
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+  .container {
+    width: 90%;
+    max-width: 34em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .todo-input {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 10px;
+  }
+  .todo-input input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #6c6d26;
+  }
+.ad-button {
+    font-color: #ffffff;
+    background-color: #6c6d26;
+    border: none;
+    border-radius: 2px;
+}
+.todo-list {
+    position: relative;
+    background-color: #ffffff;
+}
