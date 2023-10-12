@@ -114,3 +114,18 @@
   .editSpan {
     right: 40px;
   }
+
+  #todo-delete {
+    display: flex;
+    justify-content: center;
+  }
+
+  #delete-button {
+    color: black;
+    background-color: #6c6d26;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 20px;
+    
+  }
