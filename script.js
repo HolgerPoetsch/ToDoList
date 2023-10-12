@@ -55,3 +55,10 @@ function showTask(){
 }
 
 showTask(); 
+
+const deleteBtn = document.getElementById("delete-button")
+
+deleteBtn.addEventListener("click", () => {
+  listContainer.innerHTML = ""
+  saveData();
+} )
