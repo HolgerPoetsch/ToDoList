@@ -27,7 +27,8 @@ listContainer.addEventListener("click", function(e){
         if (!e.target.classList.value.includes("saveSpan")) {
           let currentTask = e.target.previousSibling.innerText;
           e.target.previousSibling.remove();
-          e.target.parentElement.insertAdjacentHTML("afterbegin", `<input type="text" id="input-box" placeholder="${currentTask}">`)
+          e.target.parentElement.insertAdjacentHTML("afterbegin", `<input type="text" id="input-box" placeholder="Edit your Task">`)
+          e.target.previousSibling.value = currentTask
           e.target.innerHTML = "&#128427"
           e.target.classList.add("saveSpan")
       } else {
